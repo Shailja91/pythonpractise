@@ -8,4 +8,3 @@ for i, item in enumerate(Menu, start=0):
 
 orderedfood.append(input("\n What dish do you want."))
 print("you've ordered:",list(Menu[int(orderedfood[0])].keys()),"of rs.",list(Menu[int(orderedfood[0])].values()))
-orderedf1 = Menu[int(orderedfood[0])]
