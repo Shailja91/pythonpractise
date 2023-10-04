@@ -9,7 +9,7 @@ elif(coding=="1"):
 	coding=False
 if(coding == True):
 	if len(str)>=3:
-		print(str)
+
 		a=random.choice(string.ascii_letters)+random.choice(string.ascii_letters)+random.choice(string.ascii_letters)
 		str=a + str[::-1] + a
 		print(str)
